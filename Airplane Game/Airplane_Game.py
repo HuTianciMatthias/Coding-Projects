@@ -12,7 +12,8 @@ fonts = pygame.font.SysFont('Arial', 30)
 fontsed = pygame.font.SysFont('Arial', 50)
 pygame.display.set_caption("Matthias's Airplane Game")
 
-    
+print("change")
+
 playerBack = pygame.image.load("Background.png")
 playerBack = pygame.transform.scale(playerBack, (900, 700))
 playerBack = playerBack.convert()
